@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ben je sexy?</title>
 <style>
+1fmbes-codex/create-a-button-click-game-with-random-movement
   body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -56,6 +57,7 @@
   <button id="yesButton">Ja</button>
   <button id="noButton">Nee</button>
   <div id="response"></div>
+main
 <script>
   const yesButton = document.getElementById('yesButton');
   const noButton = document.getElementById('noButton');
@@ -66,10 +68,12 @@
   });
 
   function moveNoButton() {
+1fmbes-codex/create-a-button-click-game-with-random-movement
     const maxX = window.innerWidth - noButton.offsetWidth;
     const maxY = window.innerHeight - noButton.offsetHeight;
     const x = Math.random() * maxX;
     const y = Math.random() * maxY;
+main
     noButton.style.left = x + 'px';
     noButton.style.top = y + 'px';
   }
